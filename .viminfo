@@ -11,27 +11,57 @@
 # hlsearch on (H) or off (h):
 ~h
 # Son Arama Dizgisi:
-~Msle0/\<tmux-mem-cpu-load\>
+~MSle0~/düzenlenecek
 
 # Son Şunu değiştir: Arama Dizgisi:
-~MSle0~&\s\+$
+~MSle0&\s\+$
 
 # Son Değiştirilen Dizi:
 $
 
 # Komut Satırı Geçmişi (yeniden eskiye):
-:q
-|2,0,1573674364,,"q"
 :w
-|2,0,1573674358,,"w"
+|2,0,1574361801,,"w"
+:W
+|2,0,1574360485,,"W"
+:split variables.cob
+|2,0,1574359497,,"split variables.cob"
+:q
+|2,0,1574366508,,"q"
+:q!
+|2,0,1574365778,,"q!"
+:g/^$/d
+|2,0,1574365718,,"g/^$/d"
+:wq
+|2,0,1574364309,,"wq"
+:set cc=80
+|2,0,1574363758,,"set cc=80"
+:Sex
+|2,0,1574355501,,"Sex"
+:verbose map C-n
+|2,0,1573990366,,"verbose map C-n"
+:verbose map b
+|2,0,1573990347,,"verbose map b"
+:set spell spelllang=tr
+|2,0,1573922365,,"set spell spelllang=tr"
+:split
+|2,0,1573913432,,"split"
+:set spell!
+|2,0,1573913346,,"set spell!"
+:e ~/Projeler/GitHub/vim/runtime/autoload/spellfile.vim
+|2,0,1573913341,,"e ~/Projeler/GitHub/vim/runtime/autoload/spellfile.vim"
+:set spell spelllang=de
+|2,0,1573912978,,"set spell spelllang=de"
+:kill-server
+|2,0,1573912490,,"kill-server"
+:messages
+|2,0,1573815377,,"messages"
 :%s/\s\+$//e
 |2,0,1573660688,,"%s/\\s\\+$//e"
 ::%s/\s\+$//e
 |2,0,1573660683,,":%s/\\s\\+$//e"
 :set fenc?
 |2,0,1573657597,,"set fenc?"
-:wq
-|2,0,1573655608,,"wq"
 :vsplit
 |2,0,1573650272,,"vsplit"
 :PlugInstall
@@ -68,8 +98,6 @@ $
 |2,0,1573597955,,"%s/Halihazırda/Hâlihazırda/gc"
 :set fenc=cp1254
 |2,0,1573596487,,"set fenc=cp1254"
-:q!
-|2,0,1573595569,,"q!"
 :set enc=iso-8859-9
 |2,0,1573595463,,"set enc=iso-8859-9"
 :e ~/Projeler/GitHub/vim_emir/runtime/tutor/tutor.tr.iso9
@@ -108,8 +136,6 @@ $
 |2,0,1573561795,,"Tmuxline lightline_insert"
 :set enc?
 |2,0,1573560382,,"set enc?"
-:set cc=80
-|2,0,1573560328,,"set cc=80"
 :%s/yebele/hebele/g
 |2,0,1573555861,,"%s/yebele/hebele/g"
 :%s/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ / ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/gc
@@ -128,14 +154,8 @@ $
 |2,0,1573477291,,"set encoding=cp1254"
 :set encoding=iso--8859-9
 |2,0,1573477158,,"set encoding=iso--8859-9"
-:Sex
-|2,0,1573476996,,"Sex"
-:set spell spelllang=tr
-|2,0,1573470480,,"set spell spelllang=tr"
 :set spell
 |2,0,1573470472,,"set spell"
-:messages
-|2,0,1573469757,,"messages"
 :set cc=32
 |2,0,1573469867,,"set cc=32"
 :set cc=33
@@ -184,8 +204,6 @@ $
 |2,0,1573399016,,"set spell spelllang=ru"
 :e ~/.vim/spell/ru.utf-8.sug
 |2,0,1573398886,,"e ~/.vim/spell/ru.utf-8.sug"
-:set spell spelllang=de
-|2,0,1573398829,,"set spell spelllang=de"
 :set spell spelllang=en
 |2,0,1573398824,,"set spell spelllang=en"
 :help spell-SAL
@@ -194,6 +212,72 @@ $
 |2,0,1573381961,,"tabp"
 
 # Arama Dizisi Geçmişi (yeniden eskiye):
+? ^$
+|2,1,1574365718,,"^$"
+?/<dsy
+|2,1,1574364173,47,"<dsy"
+?/dosya düzenleniyor
+|2,1,1574364094,47,"dosya düzenleniyor"
+?/shell returned
+|2,1,1574363982,47,"shell returned"
+?/E513
+|2,1,1574363725,47,"E513"
+?/düzenlenecek
+|2,1,1574363718,47,"düzenlenecek"
+? @$
+|2,1,1574355501,,"@$"
+?/--- Ter
+|2,1,1573769083,47,"--- Ter"
+?/bilgi için  
+|2,1,1573768400,47,"bilgi için  "
+?/tarihind
+|2,1,1573768385,47,"tarihind"
+?/Türkçey
+|2,1,1573768379,47,"Türkçey"
+?/more lines
+|2,1,1573767746,47,"more lines"
+?/İŞLETMENi?
+|2,1,1573767537,47,"İŞLETMENi?"
+?/no c-format
+|2,1,1573767526,47,"no c-format"
+?/laş
+|2,1,1573683362,47,"laş"
+?/çı
+|2,1,1573683316,47,"çı"
+?/lama
+|2,1,1573683239,47,"lama"
+?/la
+|2,1,1573683223,47,"la"
+?/lık
+|2,1,1573683127,47,"lık"
+?/l/lık
+|2,1,1573683122,47,"l/lık"
+?/çılık
+|2,1,1573683086,47,"çılık"
+?/lılık
+|2,1,1573683078,47,"lılık"
+?/0 ysa
+|2,1,1573682857,47,"0 ysa"
+?/ y .
+|2,1,1573682841,47," y ."
+?/sola
+|2,1,1573683729,47,"sola"
+?/daha
+|2,1,1573683535,47,"daha"
+?/okuyun
+|2,1,1573683511,47,"okuyun"
+?/açı
+|2,1,1573683441,47,"açı"
+?/açındır
+|2,1,1573683427,47,"açındır"
+?/afalla
+|2,1,1573683347,47,"afalla"
+?/ağızlama
+|2,1,1573683213,47,"ağızlama"
+?/ahlâk
+|2,1,1573683191,47,"ahlâk"
+?/gıyab
+|2,1,1573677961,47,"gıyab"
 ? \s\+$
 |2,1,1573660688,,"\\s\\+$"
 ? \<tmux-mem-cpu-load\>
@@ -234,10 +318,6 @@ $
 |2,1,1573555543,,"^\\n\\n\\n"
 ?/fuzzy
 |2,1,1573554325,47,"fuzzy"
-? @$
-|2,1,1573476997,,"@$"
-?/E513
-|2,1,1573472682,47,"E513"
 ?/make 'fenc
 |2,1,1573472626,47,"make 'fenc"
 ? bünyesine
@@ -327,36 +407,58 @@ $
 
 # Yazmaçlar:
 "0	CHAR	0
-	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	
-|3,0,0,0,2,0,1573557026," ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",""
-""1	LINE	0
-	#set -g status-right-length 60
-|3,1,1,1,1,0,1573655584,"#set -g status-right-length 60"
+	FINISH-UP.
+	           DISPLAY "Press Return to continue...".
+	           ACCEPT WS-CLOSE
+	           DISPLAY "Goodbye!".
+	           END PROGRAM MEDYUM.
+|3,0,0,0,5,0,1574355520,"FINISH-UP.","           DISPLAY \"Press Return to continue...\".","           ACCEPT WS-CLOSE","           DISPLAY \"Goodbye!\".","           END PROGRAM MEDYUM."
+"1	LINE	0
+	# Turkish translations for Vim
+	# PACKAGE paketi için Türkçe çeviriler.
+	# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+	# This file is distributed under the same license as the PACKAGE package.
+	# Emir SARI <bitigchi@me.com>, 2019.
+	#
+	msgid ""
+	msgstr ""
+	"Project-Id-Version: PACKAGE VERSION\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2019-11-12 13:17+0300\n"
+	"PO-Revision-Date: 2019-10-09 19:58+0300\n"
+	"Last-Translator: Emir SARI <bitigchi@me.com>\n"
+	"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+	"Language: tr\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=UTF-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+	"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+|3,0,1,1,19,0,1574365752,"# Turkish translations for Vim","# PACKAGE paketi için Türkçe çeviriler.","# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER","# This file is distributed under the same license as the PACKAGE package.","# Emir SARI <bitigchi@me.com>, 2019.","#","msgid \"\"","msgstr \"\"","\"Project-Id-Version: PACKAGE VERSION\\n\"","\"Report-Msgid-Bugs-To: \\n\"","\"POT-Creation-Date: 2019-11-12 13:17+0300\\n\"",>48
+|<"\"PO-Revision-Date: 2019-10-09 19:58+0300\\n\"","\"Last-Translator: Emir SARI <bitigchi@me.com>\\n\"","\"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\\n\"","\"Language: tr\\n\"","\"MIME-Version: 1.0\\n\"","\"Content-Type: text/plain; charset=UTF-8\\n\"","\"Content-Transfer-Encoding: 8bit\\n\"","\"Plural-Forms: nplurals=2; plural=(n != 1);\\n\""
 "2	LINE	0
-	set -g @plugin 'dysnomian/tmux-now-playing'
-|3,0,2,1,1,0,1573652784,"set -g @plugin 'dysnomian/tmux-now-playing'"
+	
+|3,0,2,1,1,0,1574365718,""
 "3	LINE	0
-	# Battery percentage
-|3,0,3,1,1,0,1573652241,"# Battery percentage"
+	
+|3,0,3,1,1,0,1574365718,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1573652239,""
+|3,0,4,1,1,0,1574365718,""
 "5	LINE	0
-	# System usage
-|3,0,5,1,1,0,1573652238,"# System usage"
+	
+|3,0,5,1,1,0,1574365718,""
 "6	LINE	0
-	set -g status-right "#S "
-|3,0,6,1,1,0,1573652238,"set -g status-right \"#S \""
+	
+|3,0,6,1,1,0,1574365718,""
 "7	LINE	0
-	set -g status-right '#{battery_status_bg} #{battery_percentage} | %a %h-%d %H:%M '
-|3,0,7,1,1,0,1573652131,"set -g status-right '#{battery_status_bg} #{battery_percentage} | %a %h-%d %H:%M '"
+	
+|3,0,7,1,1,0,1574365718,""
 "8	LINE	0
-	set -g @plugin 'xamut/tmux-weather'
-|3,0,8,1,1,0,1573651937,"set -g @plugin 'xamut/tmux-weather'"
+	
+|3,0,8,1,1,0,1574365718,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1573651933,""
+|3,0,9,1,1,0,1574365718,""
 "f	CHAR	0
 	# CodeInUI
 	Various code examples for creating UI's without storyboards (Xcode 11+).
@@ -380,243 +482,554 @@ $
 <ÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±aiueÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±aÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±al:ÃÂÃÂÃÂÃÂkb
 |3,0,26,0,1,0,1563815550,>478
 |<"ÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±aiueÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂkbÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±aÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ±al:ÃÂÃÂÃÂÃÂkb"
-"-	CHAR	0
-	'#{
-|3,0,36,0,1,0,1573653078,"'#{"
+"w	CHAR	0
+	wzgwzgjzgj[��a��a
+|3,0,32,0,1,0,1573678644,"wzgwzgjzgj[��a��a"
+""-	CHAR	0
+	a
+|3,1,36,0,1,0,1574364181,"a"
 
 # genel değişkenler:
 
 # Dosya imleri:
-'0  3  20  ~/.tmux.conf
-|4,48,3,20,1573674364,"~/.tmux.conf"
-'1  1  0  ~/Desktop/oldturkic-yenisei_utf-8.vim
-|4,49,1,0,1573660769,"~/Desktop/oldturkic-yenisei_utf-8.vim"
-'2  25  0  ~/.tmux.conf
-|4,50,25,0,1573655608,"~/.tmux.conf"
-'3  25  0  ~/.tmux.conf
-|4,51,25,0,1573655608,"~/.tmux.conf"
-'4  26  20  ~/.tmux.conf
-|4,52,26,20,1573655217,"~/.tmux.conf"
-'5  27  20  ~/.tmux.conf
-|4,53,27,20,1573655217,"~/.tmux.conf"
-'6  26  20  ~/.tmux.conf
-|4,54,26,20,1573655217,"~/.tmux.conf"
-'7  27  20  ~/.tmux.conf
-|4,55,27,20,1573655217,"~/.tmux.conf"
-'8  26  21  ~/.tmux.conf
-|4,56,26,21,1573652817,"~/.tmux.conf"
-'9  26  21  ~/.tmux.conf
-|4,57,26,21,1573652817,"~/.tmux.conf"
+'0  1  7  ~/Projeler/Cobol/conditionals.cob
+|4,48,1,7,1574456479,"~/Projeler/Cobol/conditionals.cob"
+'1  6  7  ~/Projeler/Cobol/variables.cob
+|4,49,6,7,1574375482,"~/Projeler/Cobol/variables.cob"
+'2  1  0  /private/etc/paths
+|4,50,1,0,1574366508,"/private/etc/paths"
+'3  5275  0  ~/Desktop/tr_kopya.po
+|4,51,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+'4  4794  0  ~/Desktop/tr.po
+|4,52,4794,0,1574364309,"~/Desktop/tr.po"
+'5  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,53,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+'6  562  0  ~/Desktop/tr.po
+|4,54,562,0,1574363793,"~/Desktop/tr.po"
+'7  562  0  ~/Desktop/tr.po
+|4,55,562,0,1574363793,"~/Desktop/tr.po"
+'8  562  0  ~/Desktop/tr.po
+|4,56,562,0,1574363793,"~/Desktop/tr.po"
+'9  562  0  ~/Desktop/tr.po
+|4,57,562,0,1574363793,"~/Desktop/tr.po"
 
 # Atlama listesi (önce en yeniler):
--'  3  20  ~/.tmux.conf
-|4,39,3,20,1573674364,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573660784,"~/.tmux.conf"
--'  1  0  ~/Desktop/oldturkic-yenisei_utf-8.vim
-|4,39,1,0,1573660769,"~/Desktop/oldturkic-yenisei_utf-8.vim"
--'  1  0  ~/Desktop/oldturkic-yenisei_utf-8.vim
-|4,39,1,0,1573660769,"~/Desktop/oldturkic-yenisei_utf-8.vim"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573655608,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573655608,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573655608,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573655500,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573655500,"~/.tmux.conf"
--'  26  20  ~/.tmux.conf
-|4,39,26,20,1573655217,"~/.tmux.conf"
--'  27  20  ~/.tmux.conf
-|4,39,27,20,1573655217,"~/.tmux.conf"
--'  26  20  ~/.tmux.conf
-|4,39,26,20,1573655217,"~/.tmux.conf"
--'  27  20  ~/.tmux.conf
-|4,39,27,20,1573655217,"~/.tmux.conf"
--'  26  20  ~/.tmux.conf
-|4,39,26,20,1573655217,"~/.tmux.conf"
--'  27  20  ~/.tmux.conf
-|4,39,27,20,1573655217,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573652989,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573652989,"~/.tmux.conf"
--'  26  21  ~/.tmux.conf
-|4,39,26,21,1573652817,"~/.tmux.conf"
--'  26  21  ~/.tmux.conf
-|4,39,26,21,1573652817,"~/.tmux.conf"
--'  26  30  ~/.tmux.conf
-|4,39,26,30,1573652553,"~/.tmux.conf"
--'  25  30  ~/.tmux.conf
-|4,39,25,30,1573652553,"~/.tmux.conf"
--'  26  30  ~/.tmux.conf
-|4,39,26,30,1573652553,"~/.tmux.conf"
--'  25  30  ~/.tmux.conf
-|4,39,25,30,1573652553,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573652546,"~/.tmux.conf"
--'  28  0  ~/.tmux.conf
-|4,39,28,0,1573652133,"~/.tmux.conf"
--'  29  0  ~/.tmux.conf
-|4,39,29,0,1573652133,"~/.tmux.conf"
--'  28  0  ~/.tmux.conf
-|4,39,28,0,1573652133,"~/.tmux.conf"
--'  27  0  ~/.tmux.conf
-|4,39,27,0,1573652133,"~/.tmux.conf"
--'  29  0  ~/.tmux.conf
-|4,39,29,0,1573652133,"~/.tmux.conf"
--'  28  0  ~/.tmux.conf
-|4,39,28,0,1573652133,"~/.tmux.conf"
--'  28  0  ~/.tmux.conf
-|4,39,28,0,1573652133,"~/.tmux.conf"
--'  27  0  ~/.tmux.conf
-|4,39,27,0,1573652133,"~/.tmux.conf"
--'  29  0  ~/.tmux.conf
-|4,39,29,0,1573652133,"~/.tmux.conf"
--'  28  0  ~/.tmux.conf
-|4,39,28,0,1573652133,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651923,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651923,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  21  0  ~/.tmux.conf
-|4,39,21,0,1573651912,"~/.tmux.conf"
--'  22  0  ~/.tmux.conf
-|4,39,22,0,1573651912,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651899,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651899,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  32  0  ~/.tmux.conf
-|4,39,32,0,1573651705,"~/.tmux.conf"
--'  31  0  ~/.tmux.conf
-|4,39,31,0,1573651705,"~/.tmux.conf"
--'  34  0  ~/.tmux.conf
-|4,39,34,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  32  0  ~/.tmux.conf
-|4,39,32,0,1573651705,"~/.tmux.conf"
--'  31  0  ~/.tmux.conf
-|4,39,31,0,1573651705,"~/.tmux.conf"
--'  34  0  ~/.tmux.conf
-|4,39,34,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  32  0  ~/.tmux.conf
-|4,39,32,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  32  0  ~/.tmux.conf
-|4,39,32,0,1573651705,"~/.tmux.conf"
--'  31  0  ~/.tmux.conf
-|4,39,31,0,1573651705,"~/.tmux.conf"
--'  34  0  ~/.tmux.conf
-|4,39,34,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  33  0  ~/.tmux.conf
-|4,39,33,0,1573651705,"~/.tmux.conf"
--'  32  0  ~/.tmux.conf
-|4,39,32,0,1573651705,"~/.tmux.conf"
--'  24  0  ~/.tmux.conf
-|4,39,24,0,1573651702,"~/.tmux.conf"
--'  24  0  ~/.tmux.conf
-|4,39,24,0,1573651702,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573651702,"~/.tmux.conf"
--'  24  0  ~/.tmux.conf
-|4,39,24,0,1573651702,"~/.tmux.conf"
--'  26  0  ~/.tmux.conf
-|4,39,26,0,1573651702,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573651702,"~/.tmux.conf"
--'  24  0  ~/.tmux.conf
-|4,39,24,0,1573651702,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573651702,"~/.tmux.conf"
--'  24  0  ~/.tmux.conf
-|4,39,24,0,1573651702,"~/.tmux.conf"
--'  26  0  ~/.tmux.conf
-|4,39,26,0,1573651702,"~/.tmux.conf"
--'  25  0  ~/.tmux.conf
-|4,39,25,0,1573651702,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651657,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651657,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  20  0  ~/.tmux.conf
-|4,39,20,0,1573651649,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651390,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1573651390,"~/.tmux.conf"
--'  23  2  ~/.tmux.conf
-|4,39,23,2,1573651166,"~/.tmux.conf"
+-'  1  7  ~/Projeler/Cobol/conditionals.cob
+|4,39,1,7,1574456479,"~/Projeler/Cobol/conditionals.cob"
+-'  6  7  ~/Projeler/Cobol/variables.cob
+|4,39,6,7,1574375482,"~/Projeler/Cobol/variables.cob"
+-'  6  7  ~/Projeler/Cobol/variables.cob
+|4,39,6,7,1574375482,"~/Projeler/Cobol/variables.cob"
+-'  1  0  /private/etc/paths
+|4,39,1,0,1574366508,"/private/etc/paths"
+-'  1  0  /private/etc/paths
+|4,39,1,0,1574366508,"/private/etc/paths"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  5275  0  ~/Desktop/tr_kopya.po
+|4,39,5275,0,1574365778,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  1  0  ~/Desktop/tr_kopya.po
+|4,39,1,0,1574365755,"~/Desktop/tr_kopya.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  4794  0  ~/Desktop/tr.po
+|4,39,4794,0,1574364309,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  3135  0  ~/Desktop/tr.po
+|4,39,3135,0,1574364173,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  2875  0  ~/Desktop/tr.po
+|4,39,2875,0,1574364119,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  1  0  ~/Desktop/tr.po
+|4,39,1,0,1574364094,"~/Desktop/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
+-'  5563  0  ~/Projeler/GitHub/vim/src/po/tr.po
+|4,39,5563,0,1574364050,"~/Projeler/GitHub/vim/src/po/tr.po"
 
 # Dosyalardaki imlerin geçmişi (yeniden eskiye):
 
+> ~/Projeler/Cobol/conditionals.cob
+	*	1574451206	0
+	"	1	7
+	^	77	8
+	.	77	11
+	+	36	0
+	+	77	8
+	+	78	119
+	+	22	28
+	+	22	38
+	+	17	27
+	+	22	11
+	+	23	0
+	+	20	28
+	+	20	0
+	+	31	0
+	+	34	19
+	+	20	0
+	+	78	17
+	+	78	57
+	+	78	74
+	+	78	94
+	+	78	0
+	+	77	8
+	+	78	0
+	+	77	11
+
+> ~/Projeler/Cobol/variables.cob
+	*	1574375288	0
+	"	6	7
+
+> ~/Projeler/Cobol/NERD_tree_1
+	*	1574375284	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> /private/etc/paths
+	*	1574366470	0
+	"	1	0
+
+> ~/Desktop/tr_kopya.po
+	*	1574365755	0
+	"	5275	0
+	.	1	0
+	+	5274	0
+	+	1	0
+
+> ~/Desktop/tr.po
+	*	1574364299	0
+	"	4794	0
+	^	2892	7
+	.	3091	68
+	+	342	74
+	+	342	80
+	+	2892	6
+	+	3091	68
+
+> ~/Projeler/GitHub/vim/src/po/tr.po
+	*	1574364047	0
+	"	5563	0
+	^	4356	27
+	.	4356	26
+	+	345	14
+	+	344	88
+	+	6655	24
+	+	1388	44
+	+	344	33
+	+	355	21
+	+	500	18
+	+	515	52
+	+	526	30
+	+	1438	22
+	+	1584	21
+	+	1588	12
+	+	3579	32
+	+	3598	24
+	+	3608	65
+	+	3612	26
+	+	3777	21
+	+	3826	15
+	+	3827	15
+	+	3832	15
+	+	3833	15
+	+	207	18
+	+	1139	28
+	+	1140	36
+	+	1139	36
+	+	1145	31
+	+	1146	39
+	+	1145	39
+	+	1151	28
+	+	1152	36
+	+	1151	36
+	+	1157	31
+	+	1158	31
+	+	1157	39
+	+	1158	39
+	+	4781	18
+	+	4789	18
+	+	74	32
+	+	176	51
+	+	882	0
+	+	921	51
+	+	1073	14
+	+	1003	36
+	+	1916	10
+	+	1919	60
+	+	2042	11
+	+	2872	30
+	+	2951	4
+	+	2955	5
+	+	2951	0
+	+	3003	0
+	+	3468	0
+	+	3853	74
+	+	3928	0
+	+	5622	20
+	+	5631	12
+	+	5829	27
+	+	6106	10
+	+	6797	52
+	+	7274	0
+	+	2872	26
+	+	3881	40
+	+	1105	15
+	+	1134	17
+	+	2833	20
+	+	3315	23
+	+	6362	26
+	+	6954	71
+	+	6957	71
+	+	6954	37
+	+	6957	39
+	+	271	20
+	+	176	38
+	+	182	50
+	+	176	52
+	+	182	17
+	+	188	50
+	+	176	22
+	+	1060	33
+	+	1226	70
+	+	3767	37
+	+	3004	23
+	+	2962	23
+	+	3055	28
+	+	3058	24
+	+	2852	3
+	+	2833	0
+	+	2962	24
+	+	2963	0
+	+	3061	65
+	+	3767	8
+	+	3001	46
+	+	2998	45
+	+	6180	8
+	+	6016	28
+	+	6297	30
+	+	6300	21
+	+	5288	37
+	+	322	40
+	+	4356	26
+	b	2573	51
+	e	6303	8
+	i	5944	26
+
+> ~/Projeler/Cobol/cobolDemo.cob
+	*	1574361801	0
+	"	52	22
+	^	52	23
+	.	52	22
+	+	37	43
+	+	38	0
+	+	37	42
+	+	38	0
+	+	8	0
+	+	6	7
+	+	28	41
+	+	17	0
+	+	28	0
+	+	13	38
+	+	6	48
+	+	13	38
+	+	8	0
+	+	6	49
+	+	6	0
+	+	13	0
+	+	51	23
+	+	51	49
+	+	51	73
+	+	51	11
+	+	51	76
+	+	51	0
+	+	51	64
+	+	51	33
+	+	51	43
+	+	51	23
+	+	51	69
+	+	51	19
+	+	51	68
+	+	51	71
+	+	51	11
+	+	51	22
+	+	51	0
+	+	51	56
+	+	52	22
+
+> ~/Projeler/Cobol/cobolDemo
+	*	1574359370	0
+	"	4	0
+
+> ~/Projeler/Cobol/userInput.cob
+	*	1574356279	0
+	"	4	7
+
+> ~/Projeler/Cobol/denemeler.cob
+	*	1574356192	0
+	"	2	7
+
+> ~/Desktop/ot_sorular.md
+	*	1574354103	0
+	"	1	0
+	^	8	0
+	.	7	29
+	+	1	38
+	+	6	93
+	+	7	29
+
+> ~/Downloads/aspell-tr-0.50-0/tr.cwl
+	*	1574197075	0
+	"	5516	0
+
+> ~/Downloads/aspell-tr-0.50-0/configure
+	*	1574196973	0
+	"	54	6
+
+> ~/Projeler/GitHub/hws/Good-Share/.gitignore
+	*	1574083537	0
+	"	24	8
+	^	24	9
+	.	24	8
+	+	24	8
+
+> ~/Projeler/GitHub/hws/Good Share/.gitignore
+	*	1574082924	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/Downloads/harun_turkce_imla_denetimi-1.3.1webext/tr-TR.dic
+	*	1573990366	0
+	"	1	0
+	^	371057	0
+	.	371057	0
+	+	371057	0
+
+> ~/Projeler/GitHub/vim/src/spell.c
+	*	1573990342	0
+	"	1	0
+
+> ~/Downloads/harun_turkce_imla_denetimi-1.3.1webext/tr-TR.aff
+	*	1573990330	0
+	"	1	0
+
+> /usr/share/dict/words
+	*	1573939133	0
+	"	2238	0
+
+> ~/Downloads/sezer_turkce_yazm_denetimi-3.5.1webext/dictionaries/tr.aff
+	*	1573914682	0
+	"	39775	0
+
+> ~/Downloads/sezer_turkce_yazm_denetimi-3.5.1webext/tr.dic
+	*	1573914680	0
+	"	659	0
+
+> ~/Projeler/GitHub/vim/runtime/autoload/spellfile.vim
+	*	1573914001	0
+	"	49	4
+
+> ~/Projeler/GitHub/vim/runtime/autoload/README.txt
+	*	1573913532	0
+	"	1	0
+
+> ~/Projeler/GitHub/vim/src/arabic.c
+	*	1573913517	0
+	"	340	4
+
+> ~/.vim/spell/NERD_tree_1
+	*	1573913503	0
+	"	26	0
+	.	1	0
+	+	1	0
+
+> ~/Projeler/GitHub/vim/src/version.h
+	*	1573913491	0
+	"	30	0
+
+> ~/Projeler/GitHub/vim/runtime/autoload/xmlformat.vim
+	*	1573913462	0
+	"	103	1
+
+> ~/.vim/spell/ru.utf-8.sug
+	*	1573912947	0
+	"	306	0
+
 > ~/.tmux.conf
-	*	1573674362	0
-	"	3	20
-	^	25	1
-	.	25	0
+	*	1573912537	0
+	"	1	0
+	^	1	0
+	.	1	0
 	+	1	0
 	+	4	0
 	+	1	32
@@ -696,7 +1109,226 @@ $
 	+	22	0
 	+	26	21
 	+	25	0
+	+	1	0
 	a	1	0
+
+> ~/NERD_tree_1
+	*	1573912226	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/türkçe_yazım_kılavuzu.txt
+	*	1573906528	0
+	"	5	233
+	^	2417	34
+	.	2417	34
+	+	25561	68
+	+	25561	0
+	+	1	112
+	+	1	0
+	+	17	197
+	+	25560	0
+	+	100	79
+	+	128	0
+	+	158	0
+	+	1519	0
+	+	1557	0
+	+	1561	0
+	+	1	0
+	+	1564	0
+	+	1572	0
+	+	100	0
+	+	1768	0
+	+	17	0
+	+	2417	34
+
+> ~/Projeler/GitHub/vim/.gitignore
+	*	1573832727	0
+	"	54	0
+	^	54	1
+	.	54	0
+	+	51	6
+	+	53	8
+	+	54	0
+
+> ~/.vim/spell/tr.utf-8.add
+	*	1573832460	0
+	"	42	0
+	^	304	9
+	.	810	0
+	+	89	0
+	+	22	0
+	+	302	0
+	+	305	0
+	+	321	0
+	+	434	0
+	+	572	0
+	+	810	0
+
+> ~/Desktop/tr.utf-8111.add
+	*	1573832392	0
+	"	337	3
+
+> ~/Desktop/tr.utf-8.add
+	*	1573832117	0
+	"	50	0
+
+> ~/Desktop/standard.dic
+	*	1573832115	0
+	"	20	0
+
+> ~/Library/Application Support/LibreOffice/4/user/wordbook/standard.dic
+	*	1573829429	0
+	"	1	0
+
+> ~/Projeler/GitHub/vim/runtime/tutor/tutor.tr.utf-8
+	*	1573829253	0
+	"	59	5
+
+> ~/Downloads/turkce_imla_denetimi-1.3.1webext/dictionaries/tr_TR.aff
+	*	1573828815	0
+	"	1	0
+	^	15937	22
+	.	15937	0
+	+	15937	0
+
+> ~/Projeler/GitHub/hws/SwiftConvert/README.md
+	*	1573828408	0
+	"	2	138
+	^	2	139
+	.	2	138
+	+	2	138
+
+> ~/Projeler/GitHub/hws/SwiftConvert/.gitignore
+	*	1573828345	0
+	"	24	8
+	^	24	9
+	.	24	8
+	+	24	8
+
+> ~/Projeler/GitHub/vim_emir/src/po/tr.po
+	*	1573769083	0
+	"	5655	24
+	^	5655	25
+	.	5655	25
+	+	342	74
+	+	342	83
+	+	343	8
+	+	342	83
+	+	343	0
+	+	341	0
+	+	350	80
+	+	351	22
+	+	857	66
+	+	858	0
+	+	856	0
+	+	1264	0
+	+	1271	32
+	+	1270	0
+	+	1359	78
+	+	1360	0
+	+	2607	76
+	+	2608	69
+	+	3056	32
+	+	3054	0
+	+	3615	0
+	+	3616	54
+	+	3752	0
+	+	3753	7
+	+	3742	0
+	+	3988	8
+	+	3987	0
+	+	4190	0
+	+	4191	26
+	+	5138	0
+	+	5139	8
+	+	5140	25
+	+	5665	60
+	+	6885	11
+	+	1358	0
+	+	2607	10
+	+	2608	68
+	+	2607	8
+	+	2608	0
+	+	2606	0
+	+	5664	0
+	+	6884	0
+	+	7326	0
+	+	7321	35
+	+	7328	0
+	+	6599	0
+	+	6602	0
+	+	6601	0
+	+	6711	0
+	+	6714	0
+	+	6720	0
+	+	4904	0
+	+	5816	0
+	+	5819	0
+	+	3884	19
+	+	3885	19
+	+	522	8
+	+	600	0
+	+	3878	19
+	+	3879	19
+	+	5355	16
+	+	6577	0
+	+	6564	38
+	+	6556	0
+	+	2810	30
+	+	2805	0
+	+	2810	30
+	+	3505	0
+	+	4744	0
+	+	5655	25
+
+> /src/po/tr.po
+	*	1573768493	0
+	"	1	0
+
+> ~/Downloads/turkce_imla_denetimi-1.3.1webext/dictionaries/tr_TR.dic
+	*	1573684005	0
+	"	286966	0
+
+> /Volumes/Yedek/Macbook Yedek/Kişisel Belgeler/E-Betikler/Ekşi Sözlük Betikleri/Albert Camus - Veba.epub
+	*	1573675929	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> zipfile:/Volumes/Yedek/Macbook Yedek/Kişisel Belgeler/E-Betikler/Ekşi Sözlük Betikleri/Albert Camus - Veba.epub::index_split_003.html
+	*	1573675923	0
+	"	246	1
+
+> zipfile:/Volumes/Yedek/Macbook Yedek/Kişisel Belgeler/E-Betikler/Ekşi Sözlük Betikleri/Albert Camus - Veba.epub::index_split_001.html
+	*	1573675851	0
+	"	5	0
+
+> zipfile:/Volumes/Yedek/Macbook Yedek/Kişisel Belgeler/E-Betikler/Ekşi Sözlük Betikleri/Albert Camus - Veba.epub::index_split_000.html
+	*	1573675817	0
+	"	8	0
+
+> ~/NERD_tree_2
+	*	1573675805	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vimgithub/CMakeLists.txt
+	*	1573674796	0
+	"	1	0
+
+> ~/.vimgithub/.vim/.netrwhist
+	*	1573674766	0
+	"	1	0
+
+> ~/.vimgithub/.gitignore
+	*	1573674565	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
 
 > ~/Desktop/oldturkic-yenisei_utf-8.vim
 	*	1573660701	0
@@ -775,68 +1407,6 @@ $
 	+	3	27
 	+	12	0
 	+	10	36
-
-> ~/Projeler/GitHub/vim_emir/src/po/tr.po
-	*	1573648570	0
-	"	3888	19
-	^	3888	20
-	.	3888	19
-	+	342	74
-	+	342	83
-	+	343	8
-	+	342	83
-	+	343	0
-	+	341	0
-	+	350	80
-	+	351	22
-	+	858	66
-	+	859	0
-	+	857	0
-	+	1265	0
-	+	1272	32
-	+	1271	0
-	+	1360	78
-	+	1361	0
-	+	2608	76
-	+	2609	69
-	+	3058	32
-	+	3056	0
-	+	3618	0
-	+	3619	54
-	+	3755	0
-	+	3756	7
-	+	3745	0
-	+	3991	8
-	+	3990	0
-	+	4193	0
-	+	4194	26
-	+	5142	0
-	+	5143	8
-	+	5144	25
-	+	5669	60
-	+	6891	11
-	+	1359	0
-	+	2608	10
-	+	2609	68
-	+	2608	8
-	+	2609	0
-	+	2607	0
-	+	5668	0
-	+	6890	0
-	+	7332	0
-	+	7327	35
-	+	7334	0
-	+	6605	0
-	+	6608	0
-	+	6607	0
-	+	6717	0
-	+	6720	0
-	+	6726	0
-	+	4908	0
-	+	5820	0
-	+	5823	0
-	+	3887	19
-	+	3888	19
 
 > ~/tmux.~
 	*	1573648336	0
@@ -962,12 +1532,6 @@ $
 	*	1573589826	0
 	"	1	0
 
-> ~/NERD_tree_1
-	*	1573589375	0
-	"	30	0
-	.	1	0
-	+	1	0
-
 > /private/var/folders/5m/nvffgdcj1mbd14lz8kkr_kw40000gn/T/tutorwrI4Dp
 	*	1573560478	0
 	"	1	0
@@ -1075,10 +1639,6 @@ $
 	*	1573477989	0
 	"	1	0
 
-> ~/Projeler/GitHub/vim/runtime/tutor/tutor.tr.utf-8
-	*	1573477975	0
-	"	1	0
-
 > ~/Projeler/GitHub/vim/runtime/lang/NERD_tree_1
 	*	1573477939	0
 	"	88	3
@@ -1123,115 +1683,6 @@ $
 	.	3	36
 	+	3	36
 
-> ~/Projeler/GitHub/vim/src/po/tr.po
-	*	1573477019	0
-	"	397	3
-	^	322	40
-	.	322	40
-	+	3454	69
-	+	345	14
-	+	344	88
-	+	6655	24
-	+	1388	44
-	+	344	33
-	+	355	21
-	+	500	18
-	+	515	52
-	+	526	30
-	+	1438	22
-	+	1584	21
-	+	1588	12
-	+	3579	32
-	+	3598	24
-	+	3608	65
-	+	3612	26
-	+	3777	21
-	+	3826	15
-	+	3827	15
-	+	3832	15
-	+	3833	15
-	+	207	18
-	+	1139	28
-	+	1140	36
-	+	1139	36
-	+	1145	31
-	+	1146	39
-	+	1145	39
-	+	1151	28
-	+	1152	36
-	+	1151	36
-	+	1157	31
-	+	1158	31
-	+	1157	39
-	+	1158	39
-	+	4781	18
-	+	4789	18
-	+	74	32
-	+	176	51
-	+	882	0
-	+	921	51
-	+	1073	14
-	+	1003	36
-	+	1916	10
-	+	1919	60
-	+	2042	11
-	+	2872	30
-	+	2951	4
-	+	2955	5
-	+	2951	0
-	+	3003	0
-	+	3468	0
-	+	3853	74
-	+	3928	0
-	+	5622	20
-	+	5631	12
-	+	5829	27
-	+	6106	10
-	+	6797	52
-	+	7274	0
-	+	2872	26
-	+	3881	40
-	+	1105	15
-	+	1134	17
-	+	2833	20
-	+	3315	23
-	+	6362	26
-	+	6954	71
-	+	6957	71
-	+	6954	37
-	+	6957	39
-	+	271	20
-	+	176	38
-	+	182	50
-	+	176	52
-	+	182	17
-	+	188	50
-	+	176	22
-	+	1060	33
-	+	1226	70
-	+	3767	37
-	+	3004	23
-	+	2962	23
-	+	3055	28
-	+	3058	24
-	+	2852	3
-	+	2833	0
-	+	2962	24
-	+	2963	0
-	+	3061	65
-	+	3767	8
-	+	3001	46
-	+	2998	45
-	+	6180	8
-	+	6016	28
-	+	6297	30
-	+	6300	21
-	+	5288	37
-	+	322	40
-	b	2573	51
-	e	6303	8
-	i	5944	26
-
 > ~/Projeler/GitHub/vim/src/tr.po
 	*	1573472555	0
 	"	1	0
@@ -1264,12 +1715,6 @@ $
 > ~/.vim/spell/oldturkic-yenisei_utf-8.vim
 	*	1573414696	0
 	"	1	0
-
-> ~/.vim/spell/NERD_tree_1
-	*	1573414669	0
-	"	41	1
-	.	1	0
-	+	1	0
 
 > ~/Downloads/vim-8.1.2288/runtime/tutor/tutor.tr.iso9
 	*	1573412045	0
@@ -1358,537 +1803,10 @@ $
 	+	649	16
 	j	524	0
 
-> ~/.vim/spell/tr.utf-8.add
-	*	1573411650	0
-	"	1	0
-	^	89	12
-	.	90	0
-	+	90	0
-
 > ~/Downloads/vim-8.1.2288/runtime/tutor/tutor.utf-8
 	*	1573411505	0
-	"	1	0
-
-> ~/Desktop/tr.utf-8.add
-	*	1573411343	0
 	"	1	0
 
 > ./vim/spell
 	*	1573411292	0
 	"	1	0
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr_tr.iso_8859-9.vim
-	*	1573409416	0
-	"	1	0
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr.iso_8859-9.vim
-	*	1573409382	0
-	"	1	0
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr.latin1.vim
-	*	1573409337	0
-	"	3	39
-	^	3	40
-	.	3	40
-	+	3	40
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr_tr.utf-8 kopyası.vim
-	*	1573409248	0
-	"	11	24
-	^	11	25
-	.	11	25
-	+	11	25
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr_tr.latin1.vim
-	*	1573409191	0
-	"	1	0
-
-> ~/Downloads/vim-8.1.2288/runtime/lang/menu_tr_tr.utf-8.vim
-	*	1573409179	0
-	"	1	0
-
-> ~/Projeler/GitHub/vim/runtime/spell/de/de_DE.aff
-	*	1573403693	0
-	"	550	0
-
-> ~/Projeler/GitHub/vim/runtime/spell/tr/tr_TR.aff
-	*	1573403678	0
-	"	74	0
-
-> ~/Projeler/GitHub/vim/runtime/spell/de/de_DE.dic
-	*	1573403310	0
-	"	1	0
-
-> ~/Projeler/GitHub/vim/runtime/spell/tr/tr-TR.aff
-	*	1573403106	0
-	"	19885	0
-
-> /usr/local/Cellar/vim/8.1.2200/share/vim/vim81/doc/spell.txt
-	*	1573402717	0
-	"	434	0
-
-> ~/Downloads/de_DE/de_DE.aff
-	*	1573402708	0
-	"	481	49
-
-> /usr/local/Cellar/vim/8.1.2200/share/vim/vim81/doc/develop.txt
-	*	1573399726	0
-	"	515	0
-
-> ~/.vim/spell/ru.utf-8.sug
-	*	1573398895	0
-	"	71	0
-
-> ~/Desktop/turin
-	*	1573398648	0
-	"	3	172
-	^	3	175
-	.	4	0
-	+	3	175
-	+	3	0
-	+	3	175
-	+	4	0
-
-> ~/Downloads/turkce_imla_denetimi-1.3.1webext/dictionaries/tr_TR.aff
-	*	1573398492	0
-	"	1	0
-
-> ~/Downloads/turkce_imla_denetimi-1.3.1webext/dictionaries/tr_TR.dic
-	*	1573398491	0
-	"	111794	0
-
-> ~/Downloads/turkce_imla_denetimi-1.3.1webext/dictionaries/tr-TR.aff
-	*	1573380404	0
-	"	5	0
-	^	19885	8
-	.	5	0
-	+	5	0
-	+	19884	0
-	+	19883	0
-	+	19884	8
-	+	19885	7
-	+	5	0
-
-> ~/Desktop/yds_eng_denemeler.md
-	*	1573153053	0
-	"	285	4
-	^	285	5
-	.	285	4
-	+	1	1
-	+	84	8
-	+	103	6
-	+	120	6
-	+	165	5
-	+	93	0
-	+	98	7
-	+	112	7
-	+	116	7
-	+	125	7
-	+	128	7
-	+	130	7
-	+	142	7
-	+	153	7
-	+	160	7
-	+	164	6
-	+	85	22
-	+	2	14
-	+	167	19
-	+	168	0
-	+	186	6
-	+	249	0
-	+	176	8
-	+	177	8
-	+	178	9
-	+	189	9
-	+	199	9
-	+	217	9
-	+	224	9
-	+	248	9
-	+	168	19
-	+	169	0
-	+	248	10
-	+	250	19
-	+	251	0
-	+	274	7
-	+	275	6
-	+	285	4
-
-> ~/Projeler/GitHub/bitigchi.github.io/contact/contact.html
-	*	1573152635	0
-	"	1	0
-	^	31	57
-	.	31	57
-	+	31	67
-	+	30	71
-	+	33	8
-	+	31	63
-	+	30	65
-	+	33	8
-	+	31	0
-	+	30	59
-	+	31	57
-
-> ~/Desktop/tur
-	*	1573118755	0
-	"	1	0
-
-> ~/Projeler/GitHub/bitigchi.github.io/_posts/NERD_tree_1
-	*	1573117623	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/Projeler/GitHub/bitigchi.github.io/_posts/2019-11-02-yeniETklavye.md
-	*	1573117409	0
-	"	6	1
-	^	16	216
-	.	16	216
-	+	20	26
-	+	21	12
-	+	25	240
-	+	16	216
-
-> ~/Desktop/Türkçe Teñvar'a Giriş.txt
-	*	1573116788	0
-	"	1	0
-
-> ~/Desktop/tr/main.aap
-	*	1573115651	0
-	"	68	0
-
-> ~/Projeler/GitHub/bitigchi.github.io/_posts/2019-11-05-vimde-eski-turkce-yazma.md
-	*	1573115412	0
-	"	23	2
-	^	65	286
-	.	55	56
-	+	7	717
-	+	9	0
-	+	9	672
-	+	15	54
-	+	13	50
-	+	21	426
-	+	21	150
-	+	23	130
-	+	11	36
-	+	11	213
-	+	13	0
-	+	17	0
-	+	11	251
-	+	11	0
-	+	12	0
-	+	11	245
-	+	23	316
-	+	34	36
-	+	29	72
-	+	34	0
-	+	35	131
-	+	27	83
-	+	29	74
-	+	32	52
-	+	37	15
-	+	35	28
-	+	37	235
-	+	37	1
-	+	49	17
-	+	40	166
-	+	40	165
-	+	49	352
-	+	54	199
-	+	54	7
-	+	55	91
-	+	54	225
-	+	60	5
-	+	59	8
-	+	65	39
-	+	60	11
-	+	67	343
-	+	6	2
-	+	29	0
-	+	29	21
-	+	32	0
-	+	29	1
-	+	29	22
-	+	32	1
-	+	59	0
-	+	60	0
-	+	59	1
-	+	60	1
-	+	62	1
-	+	67	104
-	+	67	148
-	+	44	7
-	+	45	82
-	+	67	105
-	+	45	77
-	+	44	103
-	+	45	170
-	+	32	24
-	+	7	534
-	+	29	0
-	+	29	21
-	+	32	0
-	+	29	1
-	+	60	0
-	+	62	0
-	+	38	28
-	+	55	28
-	+	29	0
-	+	34	0
-	+	30	0
-	+	32	0
-	+	23	0
-	+	30	0
-	+	32	0
-	+	59	0
-	+	61	0
-	+	63	0
-	+	14	0
-	+	18	0
-	+	42	0
-	+	22	0
-	+	41	0
-	+	66	0
-	+	67	102
-	+	67	103
-	+	65	68
-	+	66	0
-	+	67	102
-	+	2	33
-	+	33	39
-	+	11	130
-	+	65	285
-	+	55	56
-	e	13	4
-
-> ~/Desktop/tr.utf-8.spl
-	*	1573114476	0
-	"	3446	0
-
-> ~/Downloads/1tr.utf-8.spl
-	*	1573114471	0
-	"	3128	0
-
-> ~/Desktop/tr.po
-	*	1573053996	0
-	"	695	0
-
-> ~/Desktop/tr1.po
-	*	1573053991	0
-	"	695	0
-	^	823	22
-	.	829	34
-	+	3595	24
-	+	3605	65
-	+	3609	26
-	+	3774	21
-	+	3823	15
-	+	3824	15
-	+	3829	15
-	+	3830	15
-	+	207	18
-	+	1139	28
-	+	1140	36
-	+	1139	36
-	+	1145	31
-	+	1146	39
-	+	1145	39
-	+	1151	28
-	+	1152	36
-	+	1151	36
-	+	1157	31
-	+	1158	31
-	+	1157	39
-	+	1158	39
-	+	4778	18
-	+	4786	18
-	+	74	32
-	+	176	51
-	+	882	0
-	+	921	51
-	+	1073	14
-	+	1003	36
-	+	1916	10
-	+	1919	60
-	+	2042	11
-	+	2872	30
-	+	2951	4
-	+	2955	5
-	+	2951	0
-	+	3000	0
-	+	3465	0
-	+	3850	74
-	+	3925	0
-	+	5619	20
-	+	5628	12
-	+	5826	27
-	+	6103	10
-	+	6794	52
-	+	7271	0
-	+	2872	26
-	+	3878	40
-	+	1105	15
-	+	1134	17
-	+	2833	20
-	+	3312	23
-	+	6359	26
-	+	6951	71
-	+	6954	71
-	+	6951	37
-	+	6954	39
-	+	271	20
-	+	176	38
-	+	182	50
-	+	176	52
-	+	182	17
-	+	188	50
-	+	176	22
-	+	1060	33
-	+	1226	70
-	+	3764	37
-	+	689	41
-	+	820	25
-	+	823	23
-	+	826	26
-	+	829	37
-	+	832	38
-	+	698	26
-	+	820	22
-	+	823	20
-	+	826	23
-	+	829	38
-	+	832	39
-	+	823	20
-	+	820	22
-	+	817	39
-	+	814	26
-	+	811	23
-	+	808	32
-	+	805	30
-	+	802	26
-	+	799	25
-	+	796	28
-	+	793	39
-	+	820	22
-	+	823	21
-	+	826	23
-	+	829	38
-	+	832	39
-	+	210	0
-	+	292	0
-	+	832	35
-	+	829	34
-	b	2573	51
-	e	6300	8
-	i	5941	26
-
-> ~/Projeler/GitHub/vim/src/config.log
-	*	1573038384	0
-	"	1	0
-
-> ~/Projeler/GitHub/vim/src/po/vim.desktop.in
-	*	1573037838	0
-	"	16	0
-	^	39	38
-	.	16	0
-	+	76	42
-	+	16	0
-
-> ~/Projeler/GitHub/vim/src/po/gvim.desktop.in
-	*	1573037816	0
-	"	17	0
-	.	17	0
-	+	17	0
-
-> ~/Desktop/sözlük.md
-	*	1573037717	0
-	"	1	0
-	^	80	40
-	.	5	0
-	+	81	0
-	+	5	0
-
-> ~/Projeler/GitHub/vim/runtime/autoload/spellfile.vim
-	*	1573033921	0
-	"	155	8
-
-> ~/Projeler/GitHub/vim/runtime/spell/en/main.aap
-	*	1573028711	0
-	"	125	12
-
-> ~/Projeler/GitHub/vim/runtime/spell/tr/main.app
-	*	1573024621	0
-	"	1	0
-
-> ~/Projeler/GitHub/vim/runtime/spell/main.app
-	*	1573024615	0
-	"	1	0
-
-> ~/Projeler/GitHub/bitigchi.github.io/2019-11-05-vimde-eski-turkce-yazma.md
-	*	1572977541	0
-	"	1	0
-
-> ~/Projeler/GitHub/vim/runtime/keymap/README.txt
-	*	1572972860	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/Projeler/GitHub/vim/runtime/keymap/NERD_tree_1
-	*	1572972851	0
-	"	41	1
-	.	1	0
-	+	1	0
-
-> ~/Desktop/main.aap
-	*	1572969846	0
-	"	1	40
-	^	16	43
-	.	16	42
-	+	17	54
-	+	1	24
-	+	13	0
-	+	12	27
-	+	17	0
-	+	14	0
-	+	34	33
-	+	18	21
-	+	19	55
-	+	40	70
-	+	37	0
-	+	36	20
-	+	64	22
-	+	42	31
-	+	18	22
-	+	37	0
-	+	44	0
-	+	64	0
-	+	19	7
-	+	68	29
-	+	10	0
-	+	65	0
-	+	19	80
-	+	19	0
-	+	19	87
-	+	12	16
-	+	14	11
-	+	16	42
-
-> ~/Desktop/tr_TR.dic
-	*	1572967041	0
-	"	371170	5
-	^	371170	6
-	.	371170	5
-	+	371170	5
-
-> ~/Desktop/tr_TR.aff
-	*	1572966477	0
-	"	19399	24
-	^	19399	25
-	.	19400	0
-	+	19399	25
-	+	19400	0
-
-> ~/Projeler/GitHub/vim/src/po/messages.mo
-	*	1572719112	0
-	"	354	0

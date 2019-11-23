@@ -1,0 +1,10 @@
+pane	0	0	:zsh	1	:*	0	:/Users/emirsari/Downloads/harun_turkce_imla_denetimi-1.3.1webext	0	vim	:vim tr-TR.aff
+pane	0	0	:zsh	1	:*	1	:/Users/emirsari/Projeler/Dolt/old-turkic-vocabulary	1	zsh	:
+pane	0	0	:zsh	1	:*	2	:/Users/emirsari/Downloads/harun_turkce_imla_denetimi-1.3.1webext	0	vim	:vim tr-TR.dic
+pane	0	0	:zsh	1	:*	3	:/Users/emirsari/Projeler/GitHub/vim/src	0	vim	:vim spell.c
+pane	0	2	:zsh	0	:-	0	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell	1	zsh	:
+pane	0	2	:zsh	0	:-	1	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	htop	:htop
+pane	0	2	:zsh	0	:-	2	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	zsh	:
+window	0	0	1	:*	7791,272x62,0,0{136x62,0,0[136x31,0,0,0,136x30,0,32,7],135x62,137,0[135x31,137,0,5,135x30,137,32,6]}
+window	0	2	0	:-	4bfa,272x62,0,0{136x62,0,0,2,135x62,137,0[135x31,137,0,3,135x30,137,32,4]}
+state	0	
