@@ -22,6 +22,7 @@ set t_Co=256
 set background=dark
 set encoding=utf-8
 set path=.,/usr/include,,**
+"
 " Afterglow
 let g:afterglow_inherit_background=1
 colorscheme afterglow
