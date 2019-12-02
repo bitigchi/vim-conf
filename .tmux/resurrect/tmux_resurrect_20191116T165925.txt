@@ -1,7 +1,0 @@
-pane	0	0	:zsh	0	:-	0	:/Users/emirsari/Desktop	1	zsh	:
-pane	0	2	:htop	1	:*	0	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	zsh	:
-pane	0	2	:htop	1	:*	1	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	1	htop	:htop
-pane	0	2	:htop	1	:*	2	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	ssh	:ssh pi@192.168.1.109
-window	0	0	0	:-	b95d,272x62,0,0,0
-window	0	2	1	:*	4bfa,272x62,0,0{136x62,0,0,2,135x62,137,0[135x31,137,0,3,135x30,137,32,4]}
-state	0	

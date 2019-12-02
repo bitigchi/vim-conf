@@ -1,9 +1,0 @@
-pane	0	0	:zsh	1	:*	0	:/usr/local/bin	0	zsh	:
-pane	0	0	:zsh	1	:*	1	:/Users/emirsari/Projeler/GitHub/bitigchi.github.io/_posts	0	vim	:vim 2019-11-22-turkce-vim.md
-pane	0	0	:zsh	1	:*	2	:/Users/emirsari/Projeler/Cobol	1	vim	:vim conditionals.cob
-pane	0	2	:zsh	0	:-	0	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell	1	zsh	:
-pane	0	2	:zsh	0	:-	1	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	htop	:htop
-pane	0	2	:zsh	0	:-	2	:/Users/emirsari/Projeler/GitHub/vim/runtime/spell/tr	0	zsh	:
-window	0	0	1	:*	fdfd,272x62,0,0{136x62,0,0[136x31,0,0,1,136x30,0,32,2],135x62,137,0,4}
-window	0	2	0	:-	cc07,272x62,0,0{136x62,0,0,5,135x62,137,0[135x31,137,0,6,135x30,137,32,7]}
-state	0	
