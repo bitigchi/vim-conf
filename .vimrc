@@ -1,5 +1,9 @@
 " Installed plugins
-call plug#begin('~/.vim/plugged')
+if has('haiku')
+    call plug#begin('~/config/settings/vim/plugged')
+else
+    call plug#begin('~/.vim/plugged')
+endif
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vinegar'
 Plug 'tmux-plugins/vim-tmux'
