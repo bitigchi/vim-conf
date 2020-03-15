@@ -1,18 +1,15 @@
-" Installed plugins
+" installed plugins
 if has('haiku')
     call plug#begin('~/config/settings/vim/plugged')
 else
     call plug#begin('~/.vim/plugged')
 endif
-Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vinegar'
-Plug 'tmux-plugins/vim-tmux'
 Plug 'fsouza/cobol.vim'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'arzg/vim-colors-xcode'
-Plug 'arzg/vim-swift'
 call plug#end()
 
+" set true-colour
 if exists('+termguicolors')
 	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
@@ -21,47 +18,90 @@ endif
 
 colorscheme xcodedark
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set noexpandtab
-set smartindent
-set number
-set splitbelow
-set splitright
-set cursorline
-set wildmode=longest:full,full
-set path=.,/usr/include,,**
-set showcmd
-set list
+if has("autocmd")
+    " turn on filetype plugin
+	filetype plugin indent on
+	" remember last file position
+	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
 
-" Highlight search matches
+" enable syntax highlighting
+if has('syntax') && !exists('g:syntax_on')
+	syntax enable
+endif
+
+" pretty formatting for tabs and spaces
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
+
+set number          " set line numbers
+set relativenumber  " set relative line numbers
+set cursorline      " display cursor line
+set showcmd         " display entered command
+set list            " display tabs and spaces
+set autoindent      " use the same indent as previous line
+set smartindent     " indent according to language syntax
+set smarttab        " insert tabs accordingly with spaces
+set expandtab       " convert tabs to spaces
+set tabstop=4       " tab stop width
+set softtabstop=4   " soft tab stop width
+set shiftwidth=4    " shift width
+set splitbelow      " open new splits below current buffer
+set splitright      " open new splits to the right
+set incsearch       " show search matches while typing
+set formatoptions+=j    " remove a comment leader when joining lines
+set display+=lastline   " display placeholder for truncated text
+set autoread        " reflect outside changes to the file
+set hidden          " allow buffer change without saving
+
+" highlight search matches
 if &t_Co > 2 || has("gui_running")
 	set hlsearch
 endif
 
-" Remember last file position
-if has("autocmd")
-	au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+" allow brighter colors without forcing bold
+if &t_Co == 8 && $TERM !~# '^Eterm'
+  set t_Co=16
 endif
 
+" always display 5 lines of text at EOS
+if !&scrolloff
+  set scrolloff=5
+endif
+
+" always display 5 columns of text at EOL
+if !&sidescrolloff
+  set sidescrolloff=5
+endif
+
+set path=.,/usr/include,,**     " use subfolders as path
+set wildmenu                    " allow wildmenu
+set wildmode=longest:full,full  " wildmenu mode
+set ruler                       " display ruler
+set laststatus=2                " always display status line
+set statusline=                 " reset status line
+set statusline+=[%n]            " buffer number
+set statusline+=\ %f            " file name
+set statusline+=\ %m            " 'modified' toggle
+set statusline+=%=              " flexible space
+set statusline+=%#CursorColumn# " empty column
+set statusline+=\ %y            " file type, below encoding and format
+set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
+set statusline+=\ [%{&fileformat}\]
+set statusline+=\ %p%%          " file read percentage
+set statusline+=\ %l:%c         " cursor line and column
+
+" netrw configuration
 let g:netrw_liststyle=3
 let g:netrw_browse_split=4
 let g:netrw_winsize=25
 
-set statusline=
-set statusline+=[%n]
-set statusline+=\ %f
-set statusline+=\ %m
-set statusline+=%=
-set statusline+=%#CursorColumn#
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-set statusline+=\ [%{&fileformat}\]
-set statusline+=\ %p%%
-set statusline+=\ %l:%c
+" next/previous buffer
+map <F2> :bprev<CR>
+map <F3> :bnext<CR>
 
-" Add brackets, curly braces etc...
+" add brackets, curly braces etc...
 map \p i(<Esc>ea)<Esc>
 map \h i{<Esc>ea}<Esc>
 map \n i[<Esc>ea]<Esc>
