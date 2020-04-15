@@ -44,7 +44,6 @@ set autoindent      " use the same indent as previous line
 set smartindent     " indent according to language syntax
 set smarttab        " insert tabs accordingly with spaces
 set expandtab       " convert tabs to spaces
-set tabstop=4       " tab stop width
 set softtabstop=4   " soft tab stop width
 set shiftwidth=4    " shift width
 set splitbelow      " open new splits below current buffer
@@ -100,6 +99,12 @@ let g:netrw_winsize=25
 " next/previous buffer
 map <F2> :bprev<CR>
 map <F3> :bnext<CR>
+
+" insert date
+inoremap <F4> <C-R>=strftime("%d/%m/%y")<CR>
+
+" insert date and time
+inoremap <F5> <C-R>=strftime("%d/%m/%y %H:%M:%S")<CR>
 
 " add brackets, curly braces etc...
 map \p i(<Esc>ea)<Esc>
