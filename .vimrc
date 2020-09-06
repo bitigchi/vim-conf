@@ -43,7 +43,7 @@ set list            " display tabs and spaces
 set autoindent      " use the same indent as previous line
 set smartindent     " indent according to language syntax
 set smarttab        " insert tabs accordingly with spaces
-set expandtab       " convert tabs to spaces
+set expandtab       " converts tabs to spaces
 set softtabstop=4   " soft tab stop width
 set shiftwidth=4    " shift width
 set splitbelow      " open new splits below current buffer
@@ -72,6 +72,10 @@ endif
 " always display 5 columns of text at EOL
 if !&sidescrolloff
     set sidescrolloff=5
+endif
+
+if has('mac')
+    set keymap=turkish-f
 endif
 
 set path=.,/usr/include,,**     " use subfolders as path
