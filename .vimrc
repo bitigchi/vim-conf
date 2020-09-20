@@ -7,6 +7,7 @@ endif
 Plug 'tpope/vim-vinegar'
 Plug 'fsouza/cobol.vim'
 Plug 'arzg/vim-colors-xcode'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " set true-colour
@@ -16,7 +17,8 @@ if exists('+termguicolors')
     set termguicolors
 endif
 
-colorscheme xcodedark
+colorscheme gruvbox
+set background=dark
 
 if has("autocmd")
     " turn on filetype plugin
