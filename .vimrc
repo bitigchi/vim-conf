@@ -44,7 +44,7 @@ set list            " display tabs and spaces
 set autoindent      " use the same indent as previous line
 set smartindent     " indent according to language syntax
 set smarttab        " insert tabs accordingly with spaces
-set expandtab       " converts tabs to spaces
+set noexpandtab     " does not convert tabs to spaces
 set softtabstop=4   " soft tab stop width
 set shiftwidth=4    " shift width
 set splitbelow      " open new splits below current buffer
@@ -54,6 +54,7 @@ set formatoptions+=j    " remove a comment leader when joining lines
 set display+=lastline   " display placeholder for truncated text
 set autoread        " reflect outside changes to the file
 set hidden          " allow buffer change without saving
+set cc=80
 
 " highlight search matches
 if &t_Co > 2 || has("gui_running")
