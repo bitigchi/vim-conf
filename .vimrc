@@ -45,6 +45,11 @@ set autoindent      " use the same indent as previous line
 set smartindent     " indent according to language syntax
 set smarttab        " insert tabs accordingly with spaces
 set noexpandtab     " does not convert tabs to spaces
+
+if has('haiku')
+    set tabstop=4
+endif
+
 set softtabstop=4   " soft tab stop width
 set shiftwidth=4    " shift width
 set splitbelow      " open new splits below current buffer
