@@ -81,9 +81,9 @@ if !&sidescrolloff
     set sidescrolloff=5
 endif
 
-if has('mac')
-    set keymap=turkish-f
-endif
+"if has('mac')
+"    set keymap=turkish-f
+"endif
 
 set path=.,/usr/include,,**     " use subfolders as path
 set wildmenu                    " allow wildmenu
@@ -99,7 +99,7 @@ set statusline+=%#CursorColumn# " empty column
 set statusline+=\ %y            " file type, below encoding and format
 set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
 set statusline+=\ [%{&fileformat}\]
-set statusline+=\ %p%%          " file read percentage
+set statusline+=\ %%%p          " file read percentage
 set statusline+=\ %l:%c         " cursor line and column
 
 " netrw configuration
