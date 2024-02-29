@@ -59,6 +59,11 @@ set formatoptions+=j    " remove a comment leader when joining lines
 set display+=lastline   " display placeholder for truncated text
 set autoread        " reflect outside changes to the file
 set hidden          " allow buffer change without saving
+
+if has('haiku)
+	set cc=100
+endif
+
 set cc=80
 
 " highlight search matches
